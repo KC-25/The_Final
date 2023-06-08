@@ -12,15 +12,39 @@ form.addEventListener('submit', function(event){
 });
 
 // *****Buttons: Deterimins compainion*****
-const sky = document.getElementById('sky');
-const earth = document.getElementById('earth');
-const ocean = document.getElementById('ocean');
-const under = document.getElementById('under');
-const url = 'game.html';
+const sky = document.getElementById("sky");
+const earth = document.getElementById("earth");
+const ocean = document.getElementById("ocean");
+const under = document.getElementById("under");
 
-sky.addEventListener('click', function(){
-    window.location.href = url
-    document.write('<h6> You have chosen Sky, the god aiding you in your journy is Aether.');
+
+sky.addEventListener('click', handleButtonClickS);
+earth.addEventListener('click', handleButtonClickE);
+ocean.addEventListener('click', handleButtonClickO);
+under.addEventListener('click', handleButtonClickU);
+
+function handleButtonClickS(eventS){
+    (eventS.target.id === sky)
+        console.log('sky');
+        window.location.href = "game.html";
+        document.write('<h6>You have chosen the gods of Olympus. Your compainion is Aether.');
 }
-);
-
+function handleButtonClickE(eventE){
+    (eventE.target.id === earth)
+        console.log('earth');
+        window.location.href = "game.html";
+        document.write('<h6>You have chosen the gods of The Mortal Realm. Your compainion is Gaius.'); 
+}
+function handleButtonClickO(eventO){
+    (eventO.target.id === ocean)
+        console.log('ocean');
+        window.location.href = "game.html";
+        document.write('<h6>You have chosen the gods of The Ocean. Your compainion is Melia.');
+}
+function handleButtonClickU(eventU){
+    (eventU.target.id === under)
+        console.log('under');
+        window.location.href = "game.html";
+        document.write('<h6>You have chosen the gods of The Underworld. Your compainion is Styx.');
+}
+    
