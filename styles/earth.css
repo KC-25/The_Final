@@ -1,0 +1,100 @@
+*{
+    font-family: 'MedievalSharp', cursive;
+    
+}
+
+
+html, body{
+    background-color: #581845;
+    font-family: 'MedievalSharp', cursive;
+    border: 4px solid;
+    border-image: linear-gradient(to right, #C70039, #FF5733, #FFC300);
+    border-image-slice: 1;
+    height: 103%;
+}
+
+h1{
+  
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 1.25%;
+    border: solid 10px #900C3F;
+    border-radius: 40px;
+    background-color: #C70039;
+    color: #FF5733;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow:2px 2px #581845;
+}
+
+p{
+    color: #FFC300;
+    margin-left: 10%;
+    margin-right: 10%; 
+    text-align: center;
+    font-size: x-large;
+}
+
+.options{
+    border: solid 10px #900C3F;
+    border-radius: 40px;
+    background-color: #C70039;
+    color: #FFC300;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 150%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 40px;
+}
+.set1{
+    /* background-color:#1b0038;
+    border: solid 3px;
+    color: white;
+    border-image: linear-gradient(to top, #2200ff, #006bff, #00c5ff);
+    border-image-slice: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+    padding: 1%; */
+
+    background-color: #2e0c24;
+    border: 3px solid;
+    color:#ffe48c;
+    border-image: linear-gradient(to top, #FF5733, #FFC300);
+    border-image-slice: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+ h6{
+    margin-bottom: 1.5%;
+ }
+
+ button:hover{
+    background-color: #d1f3db;
+    border: 3px solid;
+    color:#001b73;
+    border-image: linear-gradient(to top, #00a8cc, #003cff);
+    border-image-slice: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+    padding: 1%;
+ }
+ 
